@@ -34,7 +34,9 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
 
 1. Clone this repository
 2. Install dependencies:
+   npm install
 3. Start the server:
+   node server.js
 4. The server will run on `http://localhost:3000`
 
 ## Example Request (POST /tasks)
@@ -49,3 +51,6 @@ Status Codes Used
 204 No Content – Successful deletion
 400 Bad Request – Invalid input data
 404 Not Found – Task does not exist
+
+## Author
+Ajeetha Betsy
