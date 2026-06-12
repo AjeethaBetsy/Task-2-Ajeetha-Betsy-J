@@ -46,12 +46,12 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
 "title": "Learn REST APIs"
 }
 ```
-Status Codes Used
-200 OK – Successful GET/PUT
-201 Created – New task successfully created
-204 No Content – Successful deletion
-400 Bad Request – Invalid input data
-404 Not Found – Task does not exist
+## Status Codes Used
+- 200 OK – Successful GET/PUT
+- 201 Created – New task successfully created
+- 204 No Content – Successful deletion
+- 400 Bad Request – Invalid input data
+- 404 Not Found – Task does not exist
 
 ## Author
 Ajeetha Betsy
