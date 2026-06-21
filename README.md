@@ -19,6 +19,17 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
 - Node.js
 - Express.js
 
+## Project Structure
+```
+task-manager-api/
+├── server.js          # Main application file with all routes
+├── package.json        # Project dependencies and metadata
+├── package-lock.json   # Locked dependency versions
+├── .gitignore           # Files excluded from Git
+└── README.md            # Project documentation
+```
+
+
 ## API Endpoints
 
 | Method | Endpoint       | Description                  |
@@ -39,6 +50,17 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
    node server.js
 4. The server will run on `http://localhost:3000`
 
+## How to Test the API
+
+Since browsers can only send GET requests, use a tool like [Postman](https://www.postman.com/) to test POST, PUT, and DELETE requests.
+
+Example: To create a new task, send a POST request to `http://localhost:3000/tasks` with this JSON body:
+
+```json
+{
+  "title": "Your task title"
+}
+
 ## Example Request (POST /tasks)
 
 ```json
@@ -55,3 +77,38 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
 
 ## Author
 Ajeetha Betsy
+
+## API Testing Screenshots
+
+### Successful Task Creation (POST)
+
+
+![POST success](screenshots/post-task-success.png)
+
+
+
+### Validation Error (POST with empty title)
+
+
+![POST validation error](screenshots/post-task-validation.png)
+
+
+
+### Update Task (PUT)
+
+
+![PUT task](screenshots/put-task.png)
+
+
+
+### Delete Task (DELETE)
+
+
+![DELETE task](screenshots/delete-task.png)
+
+
+
+### Task Not Found (GET invalid ID)
+
+
+![GET 404](screenshots/get-404.png)
