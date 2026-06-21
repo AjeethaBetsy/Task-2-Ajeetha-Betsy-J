@@ -1,12 +1,12 @@
-# Task Manager API
+# 📝 Task Manager API
 
 A simple RESTful backend API built with Node.js and Express, developed as part of the Full Stack Development Industrial Training Kit (Project 2: Backend API Development).
 
-## Description
+## 📖 Description
 
 This API allows users to manage a list of tasks. It demonstrates core backend concepts including RESTful endpoint design, HTTP methods (GET, POST, PUT, DELETE), data validation, and appropriate use of HTTP status codes.
 
-## Features
+## ✨ Features
 
 - Retrieve all tasks
 - Retrieve a single task by ID
@@ -14,12 +14,12 @@ This API allows users to manage a list of tasks. It demonstrates core backend co
 - Update an existing task's title or completion status
 - Delete a task
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- Node.js
-- Express.js
+- **Node.js** – JavaScript runtime for building the server
+- **Express.js** – Web framework for routing and middleware
 
-## Project Structure
+## 📁 Project Structure
 ```
 task-manager-api/
 ├── server.js          # Main application file with all routes
@@ -30,7 +30,7 @@ task-manager-api/
 ```
 
 
-## API Endpoints
+## 📌 API Endpoints
 
 | Method | Endpoint       | Description                  |
 |--------|----------------|-------------------------------|
@@ -41,7 +41,7 @@ task-manager-api/
 | PUT    | /tasks/:id     | Update a task                  |
 | DELETE | /tasks/:id     | Delete a task                  |
 
-## How to Run Locally
+## ⚙️ How to Run Locally
 
 1. Clone this repository
 2. Install dependencies:
@@ -50,7 +50,7 @@ task-manager-api/
    node server.js
 4. The server will run on `http://localhost:3000`
 
-## How to Test the API
+## 🧪 How to Test the API
 
 Since browsers can only send GET requests, use a tool like [Postman](https://www.postman.com/) to test POST, PUT, and DELETE requests.
 
@@ -68,17 +68,14 @@ Example: To create a new task, send a POST request to `http://localhost:3000/tas
 "title": "Learn REST APIs"
 }
 ```
-## Status Codes Used
+## 🔢 Status Codes Used
 - 200 OK – Successful GET/PUT
 - 201 Created – New task successfully created
 - 204 No Content – Successful deletion
 - 400 Bad Request – Invalid input data
 - 404 Not Found – Task does not exist
 
-## Author
-Ajeetha Betsy
-
-## API Testing Screenshots
+## 📸 API Testing Screenshots
 
 ### Successful Task Creation (POST)
 
@@ -112,3 +109,6 @@ Ajeetha Betsy
 
 
 ![GET 404](screenshots/get-404.png)
+
+## 👩‍💻 Author
+**Ajeetha Betsy**
