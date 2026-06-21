@@ -1,6 +1,6 @@
 # Task Manager API
-Backend API Development
-A simple RESTful backend API built with Node.js and Express, developed as part of the Full Stack Development Industrial Training Kit 
+
+A simple RESTful backend API built with Node.js and Express, developed as part of the Full Stack Development Industrial Training Kit (Project 2: Backend API Development).
 
 ## Description
 
